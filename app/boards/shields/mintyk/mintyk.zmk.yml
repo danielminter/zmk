@@ -1,0 +1,13 @@
+file_format: "1"
+id: mintyk
+name: MintyK
+type: shield
+url: https://github.com/danielminter/zmintyk
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - lily59_left
+  - lily59_right
